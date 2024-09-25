@@ -18,12 +18,15 @@ git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 ```
 
-### 2. Install Dependencies
+### 2. Create Environment File
+Create a `.env` file in the root directory of the project based on the format provided in `env.sample`.
+
+### 3. Install Dependencies
 ```bash
 npm install
 ```
 
-### 3. Running the Project
+### 4. Running the Project
 ```bash
 npm run dev
 ```
